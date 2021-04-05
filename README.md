@@ -23,7 +23,7 @@ une option pour le debug
 
 ````
 php vendor/bin/codecept run --debug 
-```
+````
 
 Si tout est en vert, c'est que votre code repond au TP
 
