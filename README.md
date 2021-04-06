@@ -5,7 +5,7 @@
 
 **Avant de lancer les tests**
 
-1/ Mettre le .env (voir exemple _.env)
+1/ Mettre le .env (voir exemple _.env) \
 2/ Faire la commande pour installer les vendor
 
 **Commande à executer :**
