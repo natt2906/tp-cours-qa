@@ -49,7 +49,7 @@ class Association
 
     public function setNom(string $nom): self
     {
-        $this->nom = $nom;
+        $this->nom = $this->validatorNomCaract($nom);
 
         return $this;
     }
@@ -89,4 +89,13 @@ class Association
 
         return $this;
     }
+
+    public function validatorNomCaract(string $nom): ?string
+    {
+        if (strlen($nom) > 255){
+            return null;
+        }
+        return $nom;
+    }
+
 }
